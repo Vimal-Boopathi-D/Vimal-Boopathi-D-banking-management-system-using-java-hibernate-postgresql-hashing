@@ -10,7 +10,7 @@ public class BankTransaction {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int transactionId;
 
-    private String type; // DEPOSIT, WITHDRAW, TRANSFER
+    private String type; 
     private double amount;
     private LocalDateTime dateTime;
     private String description;
